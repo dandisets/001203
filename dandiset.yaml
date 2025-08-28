@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,27 +11,130 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Keyes, Laurel (2024) Fergil mills project (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/001203/draft
+citation: Keyes, Laurel; Mills, Fergil; Lee, Christopher R.; Howe, James R. ; Li,
+  Hao; Shao, Shan; Keisler, Maria N; Lemieux, Mackenzie E.; Taschbach, Felix H.; Borio,
+  Matilde; Chen, Hannah S.; Patel, Reesha R.; Gross, Alexa L.; Delahanty, Jeremy;
+  Cazares, Christian (2025) Data supporting "Amygdalostriatal transition zone neurons
+  encode sustained valence to direct conditioned behaviors" (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/001203/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/03xez1567
+    name: Salk Institute for Biological Studies
+    schemaKey: Affiliation
+  - identifier: https://ror.org/006w34k90
+    name: Howard Hughes Medical Institute
+    schemaKey: Affiliation
   email: laurelrr@gmail.com
+  identifier: 0000-0001-5433-9948
   includeInCitation: true
   name: Keyes, Laurel
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03xez1567
+    name: Salk Institute of Biological Studies
+    schemaKey: Affiliation
+  identifier: 0000-0002-1413-6713
+  includeInCitation: true
+  name: Mills, Fergil
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03xez1567
+    name: Salk Institute for Biological Studies
+    schemaKey: Affiliation
+  - identifier: https://ror.org/006w34k90
+    name: Howard Hughes Medical Institute
+    schemaKey: Affiliation
+  identifier: 0000-0002-5952-9924
+  includeInCitation: true
+  name: Lee, Christopher R.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: 'Howe, James R. '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-8710-1290
+  includeInCitation: true
+  name: Li, Hao
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Shao, Shan
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Keisler, Maria N
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-6015-8668
+  includeInCitation: true
+  name: Lemieux, Mackenzie E.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-5345-5787
+  includeInCitation: true
+  name: Taschbach, Felix H.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Borio, Matilde
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Chen, Hannah S.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Patel, Reesha R.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Gross, Alexa L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-4200-3352
+  includeInCitation: true
+  name: Delahanty, Jeremy
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-8899-2109
+  includeInCitation: true
+  name: Cazares, Christian
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2024-10-02T19:59:38.484877+00:00'
 description: Data from ASt project
+ethicsApproval: []
 id: DANDI:001203/draft
 identifier: DANDI:001203
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001203/versions/draft/assets/
-name: Fergil mills project
+name: Data supporting "Amygdalostriatal transition zone neurons encode sustained valence
+  to direct conditioned behaviors"
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 url: https://dandiarchive.org/dandiset/001203/draft
 version: draft
+wasGeneratedBy: []
