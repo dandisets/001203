@@ -16,9 +16,11 @@ assetsSummary:
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: Keyes, Laurel; Mills, Fergil; Lee, Christopher R.; Howe, James R. ; Li,
-  Hao; Shao, Shan; Keisler, Maria N; Lemieux, Mackenzie E.; Taschbach, Felix H.; Borio,
-  Matilde; Chen, Hannah S.; Patel, Reesha R.; Gross, Alexa L.; Delahanty, Jeremy;
-  Cazares, Christian; Maree, Liezl; Wichmann, Romy; Pereira, Talmo D; Benna, Marcus
+  Hao; Shao, Shan; Keisler, Maria N; Taschbach, Felix H.; Lemieux, Mackenzie E.; Aloboudi,
+  Faith; Borio, Matilde; White, Jesse; Chen, Hannah S.; Bushra, Fabiha; Schneider,
+  Gates P.; Lemmon, Dani P. ; Lee, Kyung J; Gross, Alexa L.; Batra, Kanha; Patel,
+  Reesha R.; Asokan, Meenakshi; Delahanty, Jeremy; Cazares, Christian; Heyman, Christopher
+  R. ; Poll, Nicholas B.; Maree, Liezl; Wichmann, Romy; Pereira, Talmo D; Benna, Marcus
   K.; Root, Cory M.; Tye, Kay M. (2026) Data supporting "Amygdalostriatal transition
   zone neurons encode sustained cue responses to guide defensive behaviors" (Mills,
   et al, 2026) (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001203/draft
@@ -82,17 +84,23 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- identifier: 0000-0001-5345-5787
+  includeInCitation: true
+  name: Taschbach, Felix H.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 - identifier: 0000-0001-6015-8668
   includeInCitation: true
   name: Lemieux, Mackenzie E.
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0001-5345-5787
+- identifier: 0009-0006-9332-7572
   includeInCitation: true
-  name: Taschbach, Felix H.
+  name: Aloboudi, Faith
   roleName:
-  - dcite:Author
+  - dcite:DataCollector
   schemaKey: Person
 - includeInCitation: true
   name: Borio, Matilde
@@ -100,9 +108,43 @@ contributor:
   - dcite:Author
   schemaKey: Person
 - includeInCitation: true
+  name: White, Jesse
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
   name: Chen, Hannah S.
   roleName:
   - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Bushra, Fabiha
+  schemaKey: Person
+- includeInCitation: true
+  name: Schneider, Gates P.
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: 'Lemmon, Dani P. '
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Lee, Kyung J
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Gross, Alexa L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-6401-4274
+  includeInCitation: true
+  name: Batra, Kanha
+  roleName:
+  - dcite:FormalAnalysis
   schemaKey: Person
 - identifier: 0000-0003-3913-6311
   includeInCitation: true
@@ -111,9 +153,9 @@ contributor:
   - dcite:Author
   schemaKey: Person
 - includeInCitation: true
-  name: Gross, Alexa L.
+  name: Asokan, Meenakshi
   roleName:
-  - dcite:Author
+  - dcite:ProjectMember
   schemaKey: Person
 - identifier: 0000-0002-4200-3352
   includeInCitation: true
@@ -126,6 +168,16 @@ contributor:
   name: Cazares, Christian
   roleName:
   - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: 'Heyman, Christopher R. '
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Poll, Nicholas B.
+  roleName:
+  - dcite:ProjectMember
   schemaKey: Person
 - includeInCitation: true
   name: Maree, Liezl
