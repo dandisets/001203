@@ -325,7 +325,9 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-10-02T19:59:38.484877+00:00'
-description: Data from ASt project
+description: This dataset includes data used in the publication Mills, et al., Amygdalostriatal
+  transition zone nurons encode sustained cue responses to guide defensive behaviors,
+  Neuron (2026), https://doi.org/10.1016/j.neuron.2026.08.012
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -357,9 +359,19 @@ relatedResource:
   repository: bioRxiv
   resourceType: dcite:JournalArticle
   schemaKey: Resource
+- name: Amygdalostriatal transition zone neurons encode sustained cue response to
+    guide defensive behaviors
+  relation: dcite:IsPublishedIn
+  repository: Neuron
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.neuron.2026.08.012
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget:
+- This data set supports the amygalostriatal transition zone (ASt) as a missing piece
+  of the circuits mediating fear responses.
 url: https://dandiarchive.org/dandiset/001203/draft
 version: draft
 wasGeneratedBy: []
