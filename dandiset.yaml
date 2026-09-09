@@ -274,7 +274,11 @@ contributor:
   schemaKey: Organization
 dateCreated: '2024-10-02T19:59:38.484877+00:00'
 description: Data from ASt project
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: SIACUC18-00060
+  schemaKey: EthicsApproval
 id: DANDI:001203/draft
 identifier: DANDI:001203
 keywords:
