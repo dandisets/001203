@@ -3,7 +3,16 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about: []
+about:
+- identifier: https://purl.brain-bican.org/ontology/mbao/MBA_278
+  name: Striatum-like amygdalar nuclei
+  schemaKey: Anatomy
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ab70
+  name: pavlovian conditioning
+  schemaKey: GenericType
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b689
+  name: fear
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -20,26 +29,26 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
+  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
+  - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 138383992831
-  numberOfFiles: 24
-  numberOfSubjects: 12
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1533614476840
+  numberOfFiles: 51
+  numberOfSubjects: 25
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ElectrodeGroup
   - ElectricalSeries
   - Units
+  - ElectrodeGroup
   - ProcessingModule
 citation: Keyes, Laurel; Mills, Fergil; Lee, Christopher R.; Howe, James R. ; Li,
   Hao; Shao, Shan; Keisler, Maria N; Taschbach, Felix H.; Lemieux, Mackenzie E.; Aloboudi,
@@ -133,12 +142,14 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0009-0008-4656-6946
+  includeInCitation: true
   name: White, Jesse
   roleName:
   - dcite:DataCollector
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0002-0765-2269
+  includeInCitation: true
   name: Chen, Hannah S.
   roleName:
   - dcite:Author
@@ -146,7 +157,8 @@ contributor:
 - includeInCitation: true
   name: Bushra, Fabiha
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0009-0005-6379-8325
+  includeInCitation: true
   name: Schneider, Gates P.
   roleName:
   - dcite:DataCollector
@@ -178,7 +190,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0002-5560-0279
+  includeInCitation: true
   name: Asokan, Meenakshi
   roleName:
   - dcite:ProjectMember
@@ -200,12 +213,14 @@ contributor:
   roleName:
   - dcite:ProjectMember
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0009-0005-8197-7343
+  includeInCitation: true
   name: Poll, Nicholas B.
   roleName:
   - dcite:ProjectMember
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0002-9781-3627
+  includeInCitation: true
   name: Maree, Liezl
   roleName:
   - dcite:Author
@@ -232,7 +247,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0003-0193-8183
+  includeInCitation: true
   name: Root, Cory M.
   roleName:
   - dcite:Author
@@ -251,7 +267,8 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- includeInCitation: false
+- identifier: https://ror.org/05nzwyq50
+  includeInCitation: false
   name: The JPB Foundation
   roleName:
   - dcite:Funder
@@ -268,7 +285,8 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- name: The New York Stem Cell Foundation
+- identifier: https://ror.org/03n2a3p06
+  name: The New York Stem Cell Foundation
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -276,7 +294,8 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- name: McKnight Foundation
+- identifier: https://ror.org/003ghvj67
+  name: McKnight Foundation
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -357,7 +376,7 @@ description: This dataset includes data used in the publication Mills, et al., A
   Section in that paper for additional details.  Animal ages are approximated in all
   files. This dandiset includes electrophysiology data from Open Ephys and Neuropixels
   recordings during discrimination task, simultaneous behavioral recordings and the
-  tracked outputs.    ADDITIONAL DATA COMING SOON!
+  tracked outputs.    ADDITIONAL CALCIUM IMAGING DATA COMING SOON!
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
